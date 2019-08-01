@@ -37,7 +37,7 @@ public class HelloWorld2{
 
                     letter++;
 
-                }else if((" ").equals(ch[i])){
+                }else if((' ' == ch[i])){
 
                     space++;
 
