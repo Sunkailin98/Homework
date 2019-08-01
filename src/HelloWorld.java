@@ -43,7 +43,10 @@ public class HelloWorld{
 
         System.out.println("number1*number2="+(number1*number2));
 
-        System.out.println("number1÷number2="+(number1/number2)); }
+        System.out.println("number1÷number2="+(number1/number2)); 
+    
+        System.out.println("number1 mod number2="+(number1%number2));
+    }
 
 }
 
