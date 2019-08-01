@@ -41,15 +41,15 @@ public class HelloWorld{
 
         System.out.println("期望的结果：");
 
-        System.out.println("两者之和："+(number1+number2));
+        System.out.println(number1+" + "+number2 +" = "+(number1+number2));
 
-        System.out.println("两者之差："+(number1-number2));
+        System.out.println(number1+" - "+number2 +" = "+(number1-number2));
 
-        System.out.println("两者之积："+(number1*number2));
+        System.out.println(number1+" * "+number2 +" = "+(number1*number2));
 
-        System.out.println("两者之商："+(number1/number2));
+        System.out.println(number1+" / "+number2 +" = "+(number1/number2));
 
-        System.out.println("两者取余："+(number1%number2));
+        System.out.println(number1+" mod "+number2 +" = "+(number1%number2));
     }
 
 }
