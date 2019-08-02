@@ -29,8 +29,7 @@ public class HelloWorld3 {
             strs[i] = str;
         }
 
-
-        show(getMaxValuesAndIndexes(getLengths()));
+        show(getMax(getLengths()));
 
     }
 
@@ -41,7 +40,7 @@ public class HelloWorld3 {
         }
         return index;
     }
-    public static String[] getMaxValuesAndIndexes(int[] arr) {
+    public static String[] getMax(int[] arr) {
         Map<String, Object> map = new HashMap<>();
         int max = arr[0];
         map.put("indexes", 0);
