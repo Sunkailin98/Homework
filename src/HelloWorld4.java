@@ -9,22 +9,23 @@ public class HelloWorld4 {
     public static void main(String[] args) {
         int[] arrays = { 12,3,4,2,1,1,2,323,23,44 };
 
-        int last_index = arrays.length - 1;
+        int last_number = arrays.length - 1;
 
-        for (int first_index = 0; first_index < last_index; first_index++) {
+        for (int first_number = 0; first_number < last_number; first_number++) {
 
-            int last = arrays[last_index];
-            int first = arrays[first_index];
+            int last = arrays[last_number];
+            int first = arrays[first_number];
             if (last % 2 == 0 && first % 2 != 0) {
-                arrays[last_index] = first;
-                arrays[first_index] = last;
-                last_index--;
+                arrays[last_number] = first;
+                arrays[first_number] = last;
+                last_number--;
             } else if (first % 2 == 0 && last % 2 == 0) {
-                last_index--;
-                first_index--;
+                last_number--;
+                first_number--;
             } else if (last % 2 != 0 && first % 2 == 0) {
-                last_index--;
+                last_number--;
             } else {
+                
             }
         }
         System.out.println(Arrays.toString(arrays));
