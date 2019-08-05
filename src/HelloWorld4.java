@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class HelloWorld4 {
 
     public static void main(String[] args) {
-        int[] arrays = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        int[] arrays = { 12,3,4,2,1,1,2,323,23,44 };
 
         int last_index = arrays.length - 1;
 
